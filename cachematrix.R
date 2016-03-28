@@ -16,7 +16,6 @@ getinverse<-function()inv
 list(set=set,get=get,
 setinverse=setinverse, getinverse=getinverse)
 }
-
 This function attempts to compute the inverse of the matrix returned by the above function.
 If the inverse has already been calculated, the cached value will be used.
 
